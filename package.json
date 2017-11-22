@@ -1,0 +1,8 @@
+{
+  "name": "ewd-mock",
+  "version": "1.0.0",
+  "description": "The example of service module for QEWD",
+  "main": "index.js",
+  "author": "Alexey Kucherenko",
+  "license": "Apache-2.0"
+}
