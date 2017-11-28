@@ -1,8 +1,16 @@
 {
   "name": "ewd-mock",
-  "version": "1.0.1",
-  "description": "The example of service module for QEWD",
+  "version": "1.0.2",
+  "description": "The mock service module for QEWD",
   "main": "index.js",
   "author": "Alexey Kucherenko",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/killmenot/ewd-mock#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killmenot/ewd-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/ewd-mock/issues"
+  }
 }
