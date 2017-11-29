@@ -1,16 +1,29 @@
 {
-  "name": "ewd-mock",
-  "version": "1.0.2",
-  "description": "The mock service module for QEWD",
+  "name": "ewd-fragments-mock",
+  "version": "1.0.0",
+  "description": "The example of service module with fragments for QEWD",
   "main": "index.js",
   "author": "Alexey Kucherenko",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/killmenot/ewd-mock#readme",
+  "homepage": "https://github.com/killmenot/ewd-fragments-mock#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/killmenot/ewd-mock.git"
+    "url": "git+https://github.com/killmenot/ewd-fragments-mock.git"
   },
   "bugs": {
-    "url": "https://github.com/killmenot/ewd-mock/issues"
+    "url": "https://github.com/killmenot/ewd-fragments-mock/issues"
+  },
+  "scripts": {
+    "lint": "jshint lib index.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "pre-commit": "^1.2.2"
   }
 }

@@ -1,6 +1,6 @@
-# EWD Mock
+# EWD Fragments Mock
 
-EWD Mock is the example of service module for QEWD that is used in testing purposes.
+EWD Fragments Mock is an example of service module that use fragments for QEWD that is used in testing purposes.
 
 ## License
 
